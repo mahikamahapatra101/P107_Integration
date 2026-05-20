@@ -7,7 +7,7 @@ with O(log n) insertion and retrieval.
 
 - Reads game records from a CSV file and stores them in a Red-Black Tree
 - Filter records by level range, min/max level, playtime, or result count
-- Submit new records at runtime — the tree rebalances on every insertion
+- Submit new records at runtime, the tree rebalances on every insertion
 - All operations run in O(log n) time
 
 ## How it works
@@ -25,4 +25,4 @@ tree traversals.
 ## Tests
 
 Covers CSV loading, insertions, left/right rotations, and all filter
-combinations — including edge cases that stress the balancing logic.
+combinations, including edge cases that stress the balancing logic.
